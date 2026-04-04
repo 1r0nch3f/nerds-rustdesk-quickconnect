@@ -1,4 +1,4 @@
-# ==============================
+h# ==============================
 # NERDS RustDesk QuickConnect
 # Visible installer version
 # ==============================
@@ -25,7 +25,7 @@ if (-not $IsAdmin) {
 }
 
 # --- Server config ---
-$ServerIP  = "192.168.1.232"
+$ServerIP  = "100.90.204.85"
 $PublicKey = "l+9YTGVBlXU9dKuBfhM7JocCkf2MgbqVGYk6ExZUPP0="
 
 $ConfigJson = "{`"id_server`":`"$ServerIP`",`"relay_server`":`"$ServerIP`",`"api_server`":`"`",`"key`":`"$PublicKey`"}"
